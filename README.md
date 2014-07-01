@@ -8,8 +8,13 @@ This is for Town Clicker, a game that hopefully doesn't suck
 This is going to be a grid based clicker game
 
 
+================================
+Buildings
+================================
 
+--------------------------------
 Residential - Provides population
+--------------------------------
 
 
 
@@ -24,7 +29,9 @@ in Medium or Dense commercial
 
 
 
+--------------------------------
 Commercial - Provides Income
+--------------------------------
 
 
 
@@ -36,7 +43,9 @@ Dense Commercial (Mall) - This provides 32 jobs - Requires 1 industrial position
 
 
 
+--------------------------------
 Industrial - Provides Clicks and allows for Commercial - increases crime
+--------------------------------
 
 
 
@@ -48,7 +57,11 @@ Dense Industrial - This provides 96 jobs - Makes any 4 squares unlivable
 
 
 
+--------------------------------
 Education - Increases production, also randomly allows for an upgrade to occur
+--------------------------------
+
+
 
 School - Improves the Commercial clickers in the surrounding area
 
@@ -58,7 +71,11 @@ Museum - Improves the Commercial clickers in a much larger area, reduces crime
 
 
 
+--------------------------------
 Entertainment - Hapiness increases production
+--------------------------------
+
+
 
 Park - Increases likelihood of people moving nearby
 
@@ -72,7 +89,11 @@ Churches - Reduce Crime - Reduce Education
 
 
 
+--------------------------------
 Crime Reduction - Crime Decreases production
+--------------------------------
+
+
 
 Police Stations - Lower Crime Rate amongst criminals
 
@@ -80,7 +101,10 @@ Prisons - Reduce number of criminals - Cannot be next to any residential
 
 
 
+--------------------------------
 Power Plants - Increase size of town
+--------------------------------
+
 
 Coal - 4x4
 
