@@ -1,5 +1,9 @@
 window.onload = myOnloadFunction()
 
+var intMoney = 0;
+var intDate = 0;
+var standardInterval = 1000;
+var moneyIncrementInterval = 7;
 
 function myOnloadFunction(){
   if (intMoney){
@@ -7,12 +11,7 @@ function myOnloadFunction(){
     var intDate = localStorage.getItem("intDate");
     var standardInterval = localStorage.getItem("standardInterval");
     var moneyIncrementInterval = localStorage.getItem("moneyIncrementInterval");
-  } else {
-    var intMoney = 0;
-    var intDate = 0;
-    var standardInterval = 1000;
-    var moneyIncrementInterval = 7;
-  }
+  } 
 }
 
 function incrementMoneyBy(number){
