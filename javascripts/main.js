@@ -24,6 +24,6 @@ function incrementDateBy(number){
 }
 
 window.setInterval(function(){
-incrementDateBy(1);
+incrementDateBy(2);
 },1000);
 
