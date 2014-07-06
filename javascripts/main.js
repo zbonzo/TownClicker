@@ -1,9 +1,9 @@
-window.onload = myOnloadFunction()
-
 var intMoney = 0;
 var intDate = 0;
 var standardInterval = 1000;
 var moneyIncrementInterval = 7;
+
+window.onload = myOnloadFunction()
 
 function myOnloadFunction(){
   if (intMoney){
