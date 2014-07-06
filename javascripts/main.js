@@ -3,7 +3,7 @@ var intDate = 0;
 var standardInterval = 1000;
 var moneyIncrementInterval = 7;
 
-if (intMoney){
+if (localStorage.getItem("intMoney"){
     var intMoney = localStorage.getItem("intMoney");
     var intDate = localStorage.getItem("intDate");
     var standardInterval = localStorage.getItem("standardInterval");
