@@ -1,6 +1,5 @@
 window.onload(function(){
   if (myvar){
-localStorage.
 var intMoney = localStorage.getItem("intMoney");
 var intDate = localStorage.getItem("intDate");
 var standardInterval = localStorage.getItem("standardInterval");
