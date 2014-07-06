@@ -5,8 +5,8 @@ var moneyIncrementInterval = 7;
 
 if (localStorage.getItem("intMoney")){
     
-    intMoney = localStorage.getItem("intMoney");
-    intDate = localStorage.getItem("intDate");
+    //intMoney = localStorage.getItem("intMoney");
+    //intDate = localStorage.getItem("intDate");
     
     //This is commented out until I figure out what I want to do with it.
     //standardInterval = localStorage.getItem("standardInterval");
