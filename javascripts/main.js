@@ -1,19 +1,19 @@
-var money = 0;
+var Money = 0;
 var date = 0;
 
-function incrementmoneyby(number){
-money = money + number;
-document.getElementById("money").innerHTML = money;
+function incrementMoneyBy(number){
+Money = Money + number;
+document.getElementById("Money").innerHTML = money;
 };
 
 
-function incrementdateby(number){
+function incrementDateBy(number){
   var x = 0;
   var y = 0;
   
-  x = Math.floor(date/7)
-  date = date + number;
-  document.getElementByID("date").innerHTML = date;
+  x = Math.floor(Date/7)
+  Date = Date + number;
+  document.getElementByID("Date").innerHTML = date;
   y = Math.floor(date/7)
   console.log(x)
   console.log(y)
@@ -21,6 +21,6 @@ function incrementdateby(number){
 }
 
 window.setInterval(function(){
-incrementdateby(1);
+incrementDateBy(1);
 },1000);
 
