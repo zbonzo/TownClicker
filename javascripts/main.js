@@ -3,16 +3,13 @@ var intDate = 0;
 var standardInterval = 1000;
 var moneyIncrementInterval = 7;
 
-window.onload = myOnloadFunction()
-
-function myOnloadFunction(){
-  if (intMoney){
+if (intMoney){
     var intMoney = localStorage.getItem("intMoney");
     var intDate = localStorage.getItem("intDate");
     var standardInterval = localStorage.getItem("standardInterval");
     var moneyIncrementInterval = localStorage.getItem("moneyIncrementInterval");
-  } 
-}
+} 
+
 
 function incrementMoneyBy(number){
   intMoney = intMoney + number;
