@@ -2,7 +2,7 @@ window.onload = myOnloadFunction()
 
 
 function myOnloadFunction(){
-  if (myvar){
+  if (intMoney){
     var intMoney = localStorage.getItem("intMoney");
     var intDate = localStorage.getItem("intDate");
     var standardInterval = localStorage.getItem("standardInterval");
@@ -38,7 +38,7 @@ function incrementDateBy(number){
   localStorage.setItem("intDate", intDate)
 }
 
-function saveToLocalStorage{
+function saveToLocalStorage(){
   localStorage.setItem("intMoney", intMoney)
   localStorage.setItem("intDate", intDate)
   localStorage.setItem("standardInterval", standardInterval)
