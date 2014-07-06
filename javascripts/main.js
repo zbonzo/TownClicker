@@ -1,6 +1,7 @@
 var Money = 0;
 var Date = 0;
 
+
 function incrementMoneyBy(number){
 Money = Money + number;
 document.getElementById("Money").innerHTML = Money;
@@ -24,6 +25,6 @@ function incrementDateBy(number){
 }
 
 window.setInterval(function(){
-incrementDateBy(2);
+incrementDateBy(20);
 },1000);
 
