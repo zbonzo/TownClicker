@@ -7,7 +7,9 @@ var tool = "none";
 if (localStorage.getItem("intMoney")){
     
     intMoney = parseInt(localStorage.getItem("intMoney"));
+    document.getElementById("intMoney").innerHTML = intMoney;
     intDate = parseInt(localStorage.getItem("intDate"));
+    document.getElementById("intDate").innerHTML = intDate;
     
     //This is commented out until I figure out what I want to do with it.
     //standardInterval = localStorage.getItem("standardInterval");
