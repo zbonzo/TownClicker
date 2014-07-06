@@ -13,7 +13,7 @@ function incrementDateBy(number){
   
   x = Math.floor(Date/7)
   Date = Date + number;
-  document.getElementByID("Date").innerHTML = date;
+  document.getElementById("Date").innerHTML = date;
   y = Math.floor(date/7)
   console.log(x)
   console.log(y)
