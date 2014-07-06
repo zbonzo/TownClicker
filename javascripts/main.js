@@ -1,23 +1,25 @@
-window.onload(function(){
-  if (myvar){
-var intMoney = localStorage.getItem("intMoney");
-var intDate = localStorage.getItem("intDate");
-var standardInterval = localStorage.getItem("standardInterval");
-var moneyIncrementInterval = localStorage.getItem("moneyIncrementInterval");
-} else {
-var intMoney = 0;
-var intDate = 0;
-var standardInterval = 1000;
-var moneyIncrementInterval = 7;
+window.onload = myOnloadFunction()
 
-}
+
+function myOnloadFunction(){
+  if (myvar){
+    var intMoney = localStorage.getItem("intMoney");
+    var intDate = localStorage.getItem("intDate");
+    var standardInterval = localStorage.getItem("standardInterval");
+    var moneyIncrementInterval = localStorage.getItem("moneyIncrementInterval");
+  } else {
+    var intMoney = 0;
+    var intDate = 0;
+    var standardInterval = 1000;
+    var moneyIncrementInterval = 7;
+  }
 }
 
 function incrementMoneyBy(number){
-intMoney = intMoney + number;
-document.getElementById("intMoney").innerHTML = intMoney;
-localStorage.setItem("intMoney", intMoney)
-};
+  intMoney = intMoney + number;
+  document.getElementById("intMoney").innerHTML = intMoney;
+  localStorage.setItem("intMoney", intMoney)
+}
 
 
 function incrementDateBy(number){
@@ -29,10 +31,10 @@ function incrementDateBy(number){
   document.getElementById("intDate").innerHTML = intDate;
   y = Math.floor(intDate/moneyIncrementInterval)
 
-  if (y > x){
-    incrementMoneyBy(y-x)
+    if (y > x){
+      incrementMoneyBy(y-x)
     
-  }
+    }
   localStorage.setItem("intDate", intDate)
 }
 
@@ -44,6 +46,6 @@ function saveToLocalStorage{
 }
 
 window.setInterval(function(){
-incrementDateBy(1);
+  incrementDateBy(1);
 },standardInterval);
 
