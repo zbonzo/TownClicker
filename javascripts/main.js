@@ -2,6 +2,7 @@ var intMoney = 0;
 var intDate = 0;
 var standardInterval = 1000;
 var moneyIncrementInterval = 7;
+var tool = "none";
 
 if (localStorage.getItem("intMoney")){
     
@@ -13,6 +14,12 @@ if (localStorage.getItem("intMoney")){
     //moneyIncrementInterval = localStorage.getItem("moneyIncrementInterval");
     
 } 
+
+function setTool(toolName){
+    tool = toolName;
+    document.getElementByID("tool").innerHTML = tool;
+    
+}
 
 
 function incrementMoneyBy(number){
