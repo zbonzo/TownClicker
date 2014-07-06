@@ -1,11 +1,23 @@
+window.onload(function(){
+  if (myvar){
+localStorage.
+var intMoney = localStorage.getItem("intMoney");
+var intDate = localStorage.getItem("intDate");
+var standardInterval = localStorage.getItem("standardInterval");
+var moneyIncrementInterval = localStorage.getItem("moneyIncrementInterval");
+} else {
 var intMoney = 0;
 var intDate = 0;
 var standardInterval = 1000;
 var moneyIncrementInterval = 7;
 
+}
+}
+
 function incrementMoneyBy(number){
 intMoney = intMoney + number;
 document.getElementById("intMoney").innerHTML = intMoney;
+localStorage.setItem("intMoney", intMoney)
 };
 
 
@@ -22,6 +34,14 @@ function incrementDateBy(number){
     incrementMoneyBy(y-x)
     
   }
+  localStorage.setItem("intDate", intDate)
+}
+
+function saveToLocalStorage{
+  localStorage.setItem("intMoney", intMoney)
+  localStorage.setItem("intDate", intDate)
+  localStorage.setItem("standardInterval", standardInterval)
+  localStorage.setItem("moneyIncrementInterval", moneyIncrementInterval)
 }
 
 window.setInterval(function(){
