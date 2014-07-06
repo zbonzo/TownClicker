@@ -17,7 +17,7 @@ if (localStorage.getItem("intMoney")){
 
 function setTool(toolName){
     tool = toolName;
-    document.getElementByID("tool").innerHTML = tool;
+    document.getElementById("tool").innerHTML = tool;
     
 }
 
