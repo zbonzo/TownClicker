@@ -4,10 +4,10 @@ var standardInterval = 1000;
 var moneyIncrementInterval = 7;
 
 if (localStorage.getItem("intMoney"){
-    var intMoney = localStorage.getItem("intMoney");
-    var intDate = localStorage.getItem("intDate");
-    var standardInterval = localStorage.getItem("standardInterval");
-    var moneyIncrementInterval = localStorage.getItem("moneyIncrementInterval");
+    intMoney = localStorage.getItem("intMoney");
+    intDate = localStorage.getItem("intDate");
+    standardInterval = localStorage.getItem("standardInterval");
+    moneyIncrementInterval = localStorage.getItem("moneyIncrementInterval");
 } 
 
 
