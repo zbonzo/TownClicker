@@ -17,7 +17,10 @@ function incrementDateBy(number){
   y = Math.floor(Date/7)
   console.log(x)
   console.log(y)
-  
+  if (y > x){
+    incrementMoneyBy(y-x)
+    
+  }
 }
 
 window.setInterval(function(){
