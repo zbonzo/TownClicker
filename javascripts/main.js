@@ -1,5 +1,5 @@
 var Money = 0;
-var date = 0;
+var Date = 0;
 
 function incrementMoneyBy(number){
 Money = Money + number;
@@ -13,8 +13,8 @@ function incrementDateBy(number){
   
   x = Math.floor(Date/7)
   Date = Date + number;
-  document.getElementById("Date").innerHTML = date;
-  y = Math.floor(date/7)
+  document.getElementById("Date").innerHTML = Date;
+  y = Math.floor(Date/7)
   console.log(x)
   console.log(y)
   
