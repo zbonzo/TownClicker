@@ -17,8 +17,7 @@ function incrementDateBy(number){
   intDate = intDate + number;
   document.getElementById("intDate").innerHTML = intDate;
   y = Math.floor(intDate/moneyIncrementInterval)
-  console.log(x)
-  console.log(y)
+
   if (y > x){
     incrementMoneyBy(y-x)
     
