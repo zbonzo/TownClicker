@@ -3,7 +3,7 @@ var date = 0;
 
 function incrementMoneyBy(number){
 Money = Money + number;
-document.getElementById("Money").innerHTML = money;
+document.getElementById("Money").innerHTML = Money;
 };
 
 
