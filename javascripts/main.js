@@ -32,7 +32,6 @@ function incrementMoneyBy(number){
 function incrementDateBy(number){
   var x = 0;
   var y = 0;
-  debugger;
   x = Math.floor(intDate/moneyIncrementInterval)
   intDate = intDate + number;
   document.getElementById("intDate").innerHTML = intDate;
