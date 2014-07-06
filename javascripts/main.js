@@ -5,7 +5,7 @@ var moneyIncrementInterval = 7;
 
 function incrementMoneyBy(number){
 intMoney = intMoney + number;
-document.getElementById("Money").innerHTML = Money;
+document.getElementById("intMoney").innerHTML = intMoney;
 };
 
 
