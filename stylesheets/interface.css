@@ -40,3 +40,18 @@ color:#000;
    font-weight:900;
 }
 
+.block{
+   display:block;
+   border-style:solid;
+   border-color:#bbb #888 #666 #aaa;
+   border-width:1px 2px 2px 1px;
+   width:25px;
+   height:25px;
+   background:#ccc;
+   color:#333;
+   line-height:2;
+   text-align:center;
+   text-decoration:none;
+   font-weight:900;
+
+}
