@@ -23,7 +23,7 @@ function setTool(toolName){
     
 }
 
-function useTool(x, y){
+function useTool(x,y){
     console.Log(x)
     console.Log(y+1)
 }
