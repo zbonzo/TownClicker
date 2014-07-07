@@ -4,7 +4,7 @@ var standardInterval = 1000;
 var moneyIncrementInterval = 7;
 var tool = "none";
 
-townDB.indexedDB.db = null;
+var townDB.indexedDB.db = null;
 
 townDB.indexedDB.open = function() {
 
