@@ -24,8 +24,8 @@ function setTool(toolName){
 }
 
 function useTool(x,y){
-    console.Log(x)
-    console.Log(y+1)
+    console.log(x)
+    console.log(y+1)
 }
 
 function incrementMoneyBy(number){
