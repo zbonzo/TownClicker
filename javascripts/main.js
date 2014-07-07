@@ -23,6 +23,10 @@ function setTool(toolName){
     
 }
 
+function useTool(x, y){
+    console.Log(x)
+    console.Log(y+1)
+}
 
 function incrementMoneyBy(number){
   intMoney = intMoney + number;
