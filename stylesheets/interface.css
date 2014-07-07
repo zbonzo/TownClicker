@@ -10,8 +10,8 @@ display:block;
 border-style:solid;
 border-color:#bbb #888 #666 #aaa;
 border-width:3px 4px 4px 3px;
-width:9em;
-height:2em;
+width:75px;
+height:25px;
 background:#ccc;
 color:#333;
 line-height:2;
@@ -25,7 +25,7 @@ border-width:4px 3px 3px 4px;
 color:#000;
 }
 
-.LightResidential{
+.tool{
    display:block;
    border-style:solid;
    border-color:#bbb #888 #666 #aaa;
@@ -40,121 +40,3 @@ color:#000;
    font-weight:900;
 }
 
-.MediumResidential{
-   display:block;
-   border-style:solid;
-   border-color:#bbb #888 #666 #aaa;
-   border-width:1px 2px 2px 1px;
-   width:25px;
-   height:25px;
-   background:#ccc;
-   color:#333;
-   line-height:2;
-   text-align:center;
-   text-decoration:none;
-   font-weight:900;
-}
-
-.DenseResidential{
-   display:block;
-   border-style:solid;
-   border-color:#bbb #888 #666 #aaa;
-   border-width:1px 2px 2px 1px;
-   width:25px;
-   height:25px;
-   background:#ccc;
-   color:#333;
-   line-height:2;
-   text-align:center;
-   text-decoration:none;
-   font-weight:900;
-}
-
-.LightIndustrial{
-   display:block;
-   border-style:solid;
-   border-color:#bbb #888 #666 #aaa;
-   border-width:1px 2px 2px 1px;
-   width:25px;
-   height:25px;
-   background:#ccc;
-   color:#333;
-   line-height:2;
-   text-align:center;
-   text-decoration:none;
-   font-weight:900;
-}
-
-.MediumIndustrial{
-   display:block;
-   border-style:solid;
-   border-color:#bbb #888 #666 #aaa;
-   border-width:1px 2px 2px 1px;
-   width:25px;
-   height:25px;
-   background:#ccc;
-   color:#333;
-   line-height:2;
-   text-align:center;
-   text-decoration:none;
-   font-weight:900;
-}
-
-.DenseIndustrial{
-   display:block;
-   border-style:solid;
-   border-color:#bbb #888 #666 #aaa;
-   border-width:1px 2px 2px 1px;
-   width:25px;
-   height:25px;
-   background:#ccc;
-   color:#333;
-   line-height:2;
-   text-align:center;
-   text-decoration:none;
-   font-weight:900;
-}
-.LightCommercial{
-   display:block;
-   border-style:solid;
-   border-color:#bbb #888 #666 #aaa;
-   border-width:1px 2px 2px 1px;
-   width:25px;
-   height:25px;
-   background:#ccc;
-   color:#333;
-   line-height:2;
-   text-align:center;
-   text-decoration:none;
-   font-weight:900;
-}
-
-.MediumCommercial{
-   display:block;
-   border-style:solid;
-   border-color:#bbb #888 #666 #aaa;
-   border-width:1px 2px 2px 1px;
-   width:25px;
-   height:25px;
-   background:#ccc;
-   color:#333;
-   line-height:2;
-   text-align:center;
-   text-decoration:none;
-   font-weight:900;
-}
-
-.DenseCommercial{
-   display:block;
-   border-style:solid;
-   border-color:#bbb #888 #666 #aaa;
-   border-width:1px 2px 2px 1px;
-   width:25px;
-   height:25px;
-   background:#ccc;
-   color:#333;
-   line-height:2;
-   text-align:center;
-   text-decoration:none;
-   font-weight:900;
-}
