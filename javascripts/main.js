@@ -34,6 +34,7 @@ function setTool(toolName){
 function useTool(x,y){
     console.log(x)
     console.log(y)
+    console.log(tool)
 }
 
 function incrementMoneyBy(number){
