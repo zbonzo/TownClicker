@@ -3,6 +3,21 @@ var intDate = 0;
 var standardInterval = 1000;
 var moneyIncrementInterval = 7;
 var tool = "none";
+var townDB = {};
+
+townDB.indexedDB.db = null;
+
+townDB.indexedDB.open = function() {
+    var version = 1;
+    var request = indexedDB.open("buildings", version);
+    
+    request.onsuccess = function(e) {
+        townDB.indexedDB.db = e.target.result;
+    };
+    
+    request.onerror = townDB.indexedDB.onerror;
+};
+
 
 if (localStorage.getItem("intMoney")){
     
