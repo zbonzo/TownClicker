@@ -11,9 +11,11 @@ townDB.open = function() {
     
     request.onsuccess = function(e) {
         townDB.indexedDB.db = e.target.result;
+        console.log("Connected")
     };
     
     request.onerror = townDB.indexedDB.onerror;
+    console.log("Failed to connect")
 };
 
 
