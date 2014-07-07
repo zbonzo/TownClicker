@@ -4,22 +4,12 @@ var standardInterval = 1000;
 var moneyIncrementInterval = 7;
 var tool = "none";
 
-var townDB.indexedDB.db = null;
+var townDB = indexedDB.open('buildings', 1);
+var townbuilding;
 
-townDB.indexedDB.open = function() {
-
-    var version = 1;
- 
-    var request = indexedDB.open("buildings", version);
-    debugger;
-    request.onsuccess = function(e) {
-        townDB.indexedDB.db = e.target.result;
-        console.log("Connected")
-    };
-
-    request.onerror = townDB.indexedDB.onerror;
-    console.log("Failed to connect")
-};
+townDB.onsuccess = function(evt){
+    townbuilding = evt.target.result;
+}
 
 
 if (localStorage.getItem("intMoney")){
