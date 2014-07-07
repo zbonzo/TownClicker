@@ -3,10 +3,9 @@ var intDate = 0;
 var standardInterval = 1000;
 var moneyIncrementInterval = 7;
 var tool = "none";
-var townDB = {};
+var townDB = indexedDB;
 
-
-townDB.indexedDB.open = function() {
+townDB.open = function() {
     var version = 1;
     var request = indexedDB.open("buildings", version);
     
