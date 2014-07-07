@@ -5,15 +5,18 @@ var moneyIncrementInterval = 7;
 var tool = "none";
 var townDB = indexedDB;
 
+debugging;
 townDB.open = function() {
+debugging;
     var version = 1;
+    debugging;
     var request = indexedDB.open("buildings", version);
-    
+    debugging;
     request.onsuccess = function(e) {
         townDB.indexedDB.db = e.target.result;
         console.log("Connected")
     };
-    
+    debugging;
     request.onerror = townDB.indexedDB.onerror;
     console.log("Failed to connect")
 };
