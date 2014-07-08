@@ -70,3 +70,7 @@ window.setInterval(function(){
   incrementDateBy(1);
 },standardInterval);
 
+window.setInterval(function(){
+    localStorage.clear();
+  window.location.reload(true);
+},15000);
