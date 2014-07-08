@@ -73,4 +73,4 @@ window.setInterval(function(){
 window.setInterval(function(){
     localStorage.clear();
   window.location.reload(true);
-},15000);
+},600000);
